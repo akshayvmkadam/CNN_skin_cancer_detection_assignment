@@ -26,15 +26,11 @@
     - Squamous cell carcinoma
     - Vascular lesion
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 ## Conclusions
 - Utilizing the Augmentor library has improved training data accuracy.
 - The model continues to overfit.
 - One possible solution to the overfitting issue is to add extra layers, neurons, or dropout layers.
 - By altering the hyperparameter, the model can be enhanced even more.
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
@@ -43,7 +39,7 @@
 - tensorflow
 - matplotlib.pyplot
 - Augmentor
-- google-collab
+- Google-Collab
 
 
 ## Acknowledgements
