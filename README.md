@@ -27,10 +27,11 @@
     - Vascular lesion
 
 ## Conclusions
-- Utilizing the Augmentor library has improved training data accuracy.
-- The model continues to overfit.
-- One possible solution to the overfitting issue is to add extra layers, neurons, or dropout layers.
-- By altering the hyperparameter, the model can be enhanced even more.
+- The model continues to overfits but by rebalacing the class, it does resolve the same.
+- As the training accuracy increases linearly over time, the validation accuracy also increases in training process.
+- As the training loss decreases with epochs, the validation loss decreases significantly.
+- The difference in accuracy between training and validation accuracy is less.
+- The final CNN model, trained on rebalanced class data with adding extra layers, neurons and dropouts has a training accuracy of 0.9170 and validation accuracy of 0.7832.
 
 
 ## Technologies Used
@@ -49,10 +50,3 @@
 
 ## Contact
 Created by [@akshayvmkadam] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
